@@ -80,6 +80,10 @@ ul {
   margin: 5px auto auto auto;
 }
 
+.github-link a:visited {
+  color: blue;
+}
+
 .current-weather {
   margin: 25px auto 35px auto;
   max-width: 600px;
