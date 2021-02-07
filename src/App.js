@@ -12,7 +12,7 @@ function App() {
        <SearchEngine />
         </p>
         </div>
-          <p class="github-link"> <a href = "https://github.com/katjaloe/sheCodes_weatherApp_2020" target="_blank">Open-source code</a>, by Katja Löffler</p>
+          <p class="github-link"> <a href = "https://github.com/katjaloe/react-weather-app" target="_blank" >Open-source code</a>, by Katja Löffler</p>
       
       
     </div>
