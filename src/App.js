@@ -1,7 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
 import axios from "axios";
 import SearchEngine from "./SearchEngine"
+
 
 function App() {
   return (
