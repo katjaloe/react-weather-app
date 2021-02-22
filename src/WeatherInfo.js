@@ -1,6 +1,7 @@
   import React from "react";
   import FormattedDate from "./FormattedDate";
   import WeatherIcon from "./WeatherIcon";
+  import UnitConversion from "./UnitConversion";
   import "./WeatherInfo.css";
   
 
@@ -19,10 +20,9 @@
                     <WeatherIcon code={props.data.icon}/>
                     </div>
                   <div class="float-left">
-                    <strong class="temperature">{props.data.temperature}</strong><span class="units"><a href="#" id="celsius-link" class="active">°C</a> |
-                      <a href="#" id="fahrenheit-link">°F</a></span>
-                  </div>
-                </div>
+                    <UnitConversion celsius={props.data.temperature} />
+              </div>
+              </div>
               </div>
               <div class="col-6">
                 <ul>
@@ -30,7 +30,8 @@
                   <li>Wind: <span>{props.data.wind}</span> km/h</li>
                 </ul>
               </div>
-              </div>
+              
+            </div>
             </div>
      );
   }
