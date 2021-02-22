@@ -1,7 +1,7 @@
 
 import './App.css';
 import axios from "axios";
-import SearchEngine from "./SearchEngine"
+import Weather from "./Weather"
 
 
 function App() {
@@ -10,8 +10,9 @@ function App() {
       
  <div class="container">
         <p>
-       <SearchEngine />
+       <Weather defaultCity="Berlin"/>
         </p>
+      
         </div>
           <p class="github-link"> <a href = "https://github.com/katjaloe/react-weather-app" target="_blank" >Open-source code</a>, by Katja Löffler</p>
       
