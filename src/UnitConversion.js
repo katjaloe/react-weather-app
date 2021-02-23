@@ -19,7 +19,7 @@ export default function UnitConversion (props) {
     if (unit === "celsius") {
         return (
             <div className="UnitConversion">
-                <span className="temeperature">{Math.round(props.celsius)}{" "}</span>
+                <span className="temperature">{Math.round(props.celsius)}{" "}</span>
            <span className="unit">
                °C |{" "}
                <a href="/" onClick={showFahrenheit}>
@@ -32,7 +32,7 @@ export default function UnitConversion (props) {
     else {
         return (
             <div className="UnitConversion">
-                <span className="temeperature">{Math.round(fahrenheit())}{" "}</span>
+                <span className="temperature">{Math.round(fahrenheit())}{" "}</span>
            <span className="unit">
                
                <a href="/" onClick={showCelsius}>

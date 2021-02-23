@@ -1,5 +1,8 @@
-h2 {
+.CurrentWeather h2 {
   text-align: left;
+  margin: 10px auto 5px auto;
+  font-size: 40px;
+  color: black;
 }
 
 p {
@@ -19,5 +22,20 @@ li:first-letter {
 
 ul {
   padding: 0;
-  font-size: 14px;
+  font-size: 16px;
+}
+
+.temperature {
+  font-size: 50px;
+  margin-left: 5px;
+  color: black;
+}
+
+.unit {
+  position: relative;
+  top: -24px;
+}
+
+.CurrentWeather canvas {
+  margin: 9px auto;
 }

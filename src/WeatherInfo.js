@@ -10,7 +10,7 @@
         <div>
   <h2 id="city">{props.data.city}</h2>
   <ul>
-    <li>Last updated: <span class="today" id="date"><FormattedDate date={props.data.date} /></span> </li>
+    <li><span class="today" id="date"><FormattedDate date={props.data.date} /></span> </li>
   <li><span class="terms">{props.data.description}</span><br /></li>
     </ul>
             <div class="row">
@@ -25,8 +25,8 @@
               </div>
               </div>
               <div class="col-6">
-                <ul>
-                  <li>Humidity: <span>{props.data.humidity}</span>%</li>
+                <ul >
+                  <li className="Humidity">Humidity: <span>{props.data.humidity}</span>%</li>
                   <li>Wind: <span>{props.data.wind}</span> km/h</li>
                 </ul>
               </div>

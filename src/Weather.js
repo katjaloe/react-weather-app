@@ -44,7 +44,7 @@ const [city, setCity] = useState(props.defaultCity);
 
   if (weatherData.ready) {
       return (
-    <div>
+    <div className="CurrentWeather">
       <form onSubmit={handleSubmit}>
           <div className="row">
               <div className="col-9">
