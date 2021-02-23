@@ -1,9 +1,4 @@
 .WeatherForecast {
   margin: 35px auto 0 auto;
   text-align: center;
-  display: block;
-}
-
-.WeatherForecast canvas {
-  color: red;
 }
